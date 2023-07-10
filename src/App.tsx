@@ -5,11 +5,6 @@ interface MyApiDataFact {
   length: number
 }
 
-interface MyApiDataCat {
-  id: string
-  url: string
-}
-
 function App() {
   const [fact, setFact] = useState("")
   const [imageUrl, setImageUrl] = useState("")
